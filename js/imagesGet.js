@@ -1,7 +1,9 @@
 const imagesList = [];
 
 const getImage = () => {
-    const urlGet = 'http://localhost:3000/api/images';
+    //'http://localhost:3000/api/images'
+    
+    const urlGet = 'pruebawebappcr.azurewebsites.net';
 
     fetch(urlGet)
         .then(response => {
